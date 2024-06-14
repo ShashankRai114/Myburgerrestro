@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-custom {
+  background-color: #343a40;
+  padding-right: 10%;
+}
+
+.navbar-custom .navbar-brand {
+  color: #fff;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff;
+  padding-left: 10%;
+}
+
+/* Hero Section */
+.hero-section {
+  background: url("burger.png") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-section .order-btn {
+  background-color: #ff5722;
+  border: none;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-section .order-btn:hover {
+  background-color: #e64a19;
+}
+
+/* Our Chef Section */
+.our-chef {
+  padding: 60px 0;
+}
+
+.our-chef h2 {
+  margin-bottom: 30px;
+}
+
+.our-chef img {
+  transition: transform 0.3s ease;
+}
+
+.our-chef img:hover {
+  transform: scale(1.1);
+}
+
+/* Best Burger Section */
+.best-burger {
+  padding: 60px 0;
+}
+
+.best-burger img {
+  transition: transform 0.3s ease;
+}
+
+.best-burger img:hover {
+  transform: scale(1.1);
+}
+
+/* Big Burger Section */
+.big-burger {
+  padding: 60px 0;
+}
+
+.big-burger img {
+  transition: transform 0.3s ease;
+}
+
+.big-burger img:hover {
+  transform: scale(1.1);
+}
+
+/* Statistics Section */
+.statistics {
+  padding: 60px 0;
+}
+
+/* Popular Package Section */
+.popular-package {
+  padding: 60px 0;
+}
+
+.popular-package .card {
+  transition: transform 0.3s ease;
+}
+
+.popular-package .card:hover {
+  transform: scale(1.05);
+}
+
+.popular-package .package-logo {
+  transition: transform 0.3s ease;
+}
+
+.popular-package .package-logo:hover {
+  transform: scale(1.2);
+}
+
+/* Updates Section */
+.updates {
+  padding: 60px 0;
+}
+
+.updates .btn {
+  background-color: #ff5722;
+  border: none;
+  color: #fff;
+}
+
+.updates .btn:hover {
+  background-color: #e64a19;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.footer a:hover {
+  color: #ff5722;
+}
+
+/* Order Button Styling */
+.order-btn {
+  background-color: #ff5722;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.order-btn:hover {
+  background-color: #e64a19;
+  transform: scale(1.05);
+}
+
+/* Hover Animation */
+.hover-animate {
+  transition: transform 0.3s ease;
+}
+
+.hover-animate:hover {
+  transform: scale(1.1);
+}
